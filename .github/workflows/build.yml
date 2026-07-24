@@ -1,4 +1,4 @@
-name: Build Tweak
+Name: Build Tweak
 
 on:
   push:
@@ -32,4 +32,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: BackupTweak-Package
-          path: packages/*.deb
+          path: |
+            packages/*.deb
+            .theos/obj/*.dylib
+            .theos/obj/debug/*.dylib
