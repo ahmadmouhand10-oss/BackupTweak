@@ -1,0 +1,9 @@
+Package: com.yourname.backuptweak
+Name: BackupRestoreTweak
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: أداة لأخذ نسخة احتياطية واستعادتها داخل التطبيق
+Maintainer: YourName
+Author: YourName
+Section: Tweaks
